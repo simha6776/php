@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+<body>
+<form Method="post"  action="porgram21.php">
+<center>
+<table border=2>
+<tr>
+<th colspan="2">Student Information</th>
+</tr>
+<tr>
+<td>Admission Number</td>
+<td>
+<input type="text" name="Admission_Number" placeholder="Enter your Admission Number" autofocus>
+</td>
+</tr>
+<tr>
+<td>Name:</td>
+<td>
+<input type="text" name="Name" placeholder="Enter your Name" >
+</td>
+</tr>
+<td>Class:
+</td>
+<td>
+<select name="Course" id="Course">
+<option value="BA">BA</option>
+<option value="BCA">BCA</option>
+<option value="BBA">BBA</option>
+<option value="BSc">BSc</option>
+<option value="BCom">BCom</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Gender:
+</td>
+<td>
+<input type="radio" name="Gender" value="Male">Male
+<input type="radio" name="Gender" value="Female">Female
+</td>
+</tr>
+<tr>
+<td>Address:
+</td>
+<td>
+<textarea name="Address" rows="4" cols="30" placeholder="Enter your address"></textarea>
+</td>
+</tr>
+<tr>
+<td>Contact Number:
+</td>
+<td>
+<input type="text" name="Phone_Number" maxlength="10" placeholder="Enter your phone number">
+</td>
+</tr>
+<tr>
+<td>EMAIL ID:
+</td>
+<td>
+<input type="email" name="email" placeholder="enter your EmailId">
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="submit" name="save" value="save">
+</td>
+</tr>
+</table>
+</center>
+</form>
+</body>
+</html>
